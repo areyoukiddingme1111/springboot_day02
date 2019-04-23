@@ -1,0 +1,56 @@
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+#hot_note{
+    width: 70%;
+    margin: 0 auto;
+ /*   border: 1px solid salmon;*/
+}
+
+#hot_note ul li{
+    list-style: none;
+    margin-bottom: 30px;
+    display: block;
+    height: 154px;
+    width: 100%;
+}
+
+#hot_note ul li .note_img,#hot_note ul li .note_detail{
+    float: left;
+}
+
+#hot_note ul li .note_img{
+
+    margin-right: 40px;
+}
+
+#hot_note ul li .note_detail{
+    padding-top: 30px;
+}
+
+
+#hot_note ul li .note_title{
+    display: block;
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    color: darkgray;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+#hot_note ul li .note_title:hover{
+    color: darkorange;
+}
+
+#hot_note ul li .note_detail span{
+    font-size: 10px;
+    color: darkgray;
+}
+
+#hot_note ul li .note_detail .note_author{
+    counter-reset:darkorange ;
+}
